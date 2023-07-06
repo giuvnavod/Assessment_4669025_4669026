@@ -1,0 +1,28 @@
+<resources>
+    //Main Activity
+    <string name="AppName">Assessment_s4669025_s4669026</string>
+    <string name="imgCarApp">Car Image</string>
+    <string name="homeAddCarBtn">CHECK CAR</string>
+    <string name="btnHomeAddCar">ADD CAR</string>
+    <string name="btnHomeCheckCar">CHECK CAR</string>
+
+    //Add Car Activity
+
+    <string name="txtPrice">PRICE</string>
+    <string name="txtModel">MODEL</string>
+    <string name="txtBrand">BRAND</string>
+    <string name="txtAddCarTopic">ADD CAR</string>
+    <string name="cdAddCarBrand">Add Car Brand</string>
+    <string name="cdAddCarModel">Add Car Model</string>
+    <string name="cdAddCarPrice">Add Car Price</string>
+    <string name="btntxtAddCar">ADD CAR</string>
+    <string name="btntxtBack">BACK</string>
+
+
+    //Check Car Activity
+    <string name="btnCheckPrice">CHECK PRICE</string>
+    <string name="txtCheckCarTopic">CHECK CAR</string>
+    <string name="txtCarPriceDisplay">Price Of The Car Is</string>
+
+
+</resources>
