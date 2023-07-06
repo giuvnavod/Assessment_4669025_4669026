@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55E8FF">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="48dp"
+        android:background="#0258D3"
+        android:gravity="center_vertical"
+        android:text="@string/AppName"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/txtAddCarTopic"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="231dp"
+        android:layout_height="94dp"
+        android:layout_below="@id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:contentDescription="@string/imgCarApp"
+        android:src="@drawable/car" />
+
+    <LinearLayout
+        android:id="@+id/llBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txtCarBrand"
+            android:layout_width="78dp"
+            android:layout_height="25dp"
+            android:text="@string/txtBrand"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etCarBrand"
+            android:layout_width="210dp"
+            android:layout_height="49dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/cdAddCarBrand"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llBrand"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/txtCarModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtModel"
+            android:textSize="16sp"
+            android:layout_marginEnd="10dp"
+            android:paddingEnd="15dp"/>
+
+        <EditText
+            android:id="@+id/etCarModel"
+            android:layout_width="210dp"
+            android:layout_height="49dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/cdAddCarModel"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llModel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#2369ED"
+        android:text="@string/btnCheckPrice" />
+
+    <LinearLayout
+        android:id="@+id/llPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txtCarPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/txtPrice"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etCarPrice"
+            android:layout_width="210dp"
+            android:layout_height="49dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="@string/txtCarPriceDisplay"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_below="@id/llPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2369ED"
+        android:layout_marginTop="10dp"
+        android:text="@string/btntxtBack"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
